@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "${GOOGLE_PROJECT}-tfstate"
+    bucket = "focus-skein-278515-tfstate"
     prefix = "env/prod"
   }
 }
