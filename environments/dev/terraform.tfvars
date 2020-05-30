@@ -1,1 +1,1 @@
-project="PROJECT_ID"
+project="${GOOGLE_PROJECT}"
